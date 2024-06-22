@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Tianle Jiang/Personal Homepage"
+title                    : "Tianle Jiang"
 title_separator          : "-"
 name                     : &name "Tianle Jiang"
 description              : &description "personal description"
