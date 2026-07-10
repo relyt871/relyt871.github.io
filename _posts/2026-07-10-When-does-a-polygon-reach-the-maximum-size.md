@@ -97,15 +97,8 @@ so $T_1\sin\theta_1=\dfrac{F_{AB}}{2}$.  Similarly, no torque around $A$, so $T_
 Now draw through $A$ and $B$ the lines perpendicular to $\vec T_1$ and $\vec T_2$, respectively, and let them intersect at $O$. Draw $OM\perp AB$, with $M\in AB$.
 
 Because the two force directions make equal angles with $AB$,
-
 \[
-\angle AOM
-=
-\theta_1
-=
-\theta_2
-=
-\angle BOM.
+\angle AOM=\theta_1=\theta_2=\angle BOM ~.
 \]
 
 Therefore $AOB$ is an isosceles triangle with $OA=OB$, and hence $AM=MB=\dfrac{|AB|}{2}$.
