@@ -32,9 +32,12 @@ layout: default
 
           {% for tag in page.tags %}
 
-            <span class="post-tag">
+            <a
+              class="post-tag"
+              href="{{ '/' | relative_url }}?tag={{ tag | slugify }}"
+            >
               {{ tag }}
-            </span>
+            </a>
 
           {% endfor %}
 
