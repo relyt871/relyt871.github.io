@@ -402,6 +402,32 @@ hr {
 
 
 /*
+ * Comments
+ */
+
+.comments {
+  margin-top: 70px;
+
+  padding-top: 30px;
+
+  border-top:
+    1px
+    solid
+    var(--border-color);
+}
+
+
+.comments h2 {
+  margin:
+    0
+    0
+    25px;
+
+  font-size: 24px;
+}
+
+
+/*
  * Mobile layout
  */
 
