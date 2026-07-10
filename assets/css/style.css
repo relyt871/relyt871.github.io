@@ -168,6 +168,86 @@ hr {
 
 
 /*
+ * Blog index
+ */
+
+.blog-index {
+  max-width: 850px;
+}
+
+
+.post-list {
+  margin-top: 30px;
+
+  border-top:
+    1px
+    solid
+    var(--border-color);
+}
+
+
+.post-list-item {
+  padding: 22px 0;
+
+  border-bottom:
+    1px
+    solid
+    var(--border-color);
+}
+
+
+.post-list-title {
+  margin: 0 0 5px;
+
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+
+.post-list-title a {
+  color:
+    var(--text-color);
+}
+
+
+.post-list-title a:hover {
+  color:
+    var(--link-color);
+
+  text-decoration: none;
+}
+
+
+.post-list-metadata {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  align-items: center;
+
+  gap: 6px;
+
+  color:
+    var(--secondary-text-color);
+
+  font-size: 14px;
+}
+
+
+.metadata-separator,
+.tag-separator {
+  color: #aaaaaa;
+}
+
+
+.empty-post-list {
+  color:
+    var(--secondary-text-color);
+}
+
+
+/*
  * Mobile layout
  */
 
