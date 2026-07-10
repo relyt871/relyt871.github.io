@@ -21,9 +21,21 @@
 <body>
 
   <header>
-    <a href="/">
+
+    <a href="{{ '/' | relative_url }}">
       {{ site.title }}
     </a>
+
+    <nav>
+      <a href="{{ '/' | relative_url }}">
+        Blogs
+      </a>
+
+      <a href="{{ '/about/' | relative_url }}">
+        About Me
+      </a>
+    </nav>
+
   </header>
 
   <main>
