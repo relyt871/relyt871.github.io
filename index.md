@@ -3,74 +3,169 @@ layout: default
 title: Blogs
 ---
 
-<section class="blog-index">
+<div class="blogs-layout">
 
-  <h1>Blogs</h1>
+  <section class="blog-index">
 
-  {% if site.posts.size > 0 %}
-
-    <div class="post-list">
-
-      {% for post in site.posts %}
-
-        <article class="post-list-item">
-
-          <h2 class="post-list-title">
-
-            <a href="{{ post.url | relative_url }}">
-              {{ post.title }}
-            </a>
-
-          </h2>
+    <h1 id="blogs-heading">
+      Blogs
+    </h1>
 
 
-          <div class="post-list-metadata">
+    {% if site.posts.size > 0 %}
 
-            <time datetime="{{ post.date | date_to_xmlschema }}">
-              {{ post.date | date: "%B %-d, %Y" }}
-            </time>
+      <div
+        id="post-list"
+        class="post-list"
+      >
+
+        {% for post in site.posts %}
+
+          <article
+            class="post-list-item"
+            data-tags="{% for tag in post.tags %}|{{ tag | slugify }}|{% endfor %}"
+          >
+
+            <h2 class="post-list-title">
+
+              <a href="{{ post.url | relative_url }}">
+                {{ post.title }}
+              </a>
+
+            </h2>
 
 
-            {% if post.tags.size > 0 %}
+            <div class="post-list-metadata">
 
-              <span class="metadata-separator">
-                ·
-              </span>
+              <time datetime="{{ post.date | date_to_xmlschema }}">
+                {{ post.date | date: "%B %-d, %Y" }}
+              </time>
 
-              <span class="post-list-tags">
 
-                {% for tag in post.tags %}
+              {% if post.tags.size > 0 %}
 
-                  <span class="post-list-tag">
-                    {{ tag }}
-                  </span>
+                <span class="metadata-separator">
+                  ·
+                </span>
 
-                  {% unless forloop.last %}
-                    <span class="tag-separator">
-                      ·
-                    </span>
-                  {% endunless %}
 
-                {% endfor %}
+                <span class="post-list-tags">
 
-              </span>
+                  {% for tag in post.tags %}
 
-            {% endif %}
+                    <a
+                      class="post-list-tag"
+                      href="{{ '/' | relative_url }}?tag={{ tag | slugify }}"
+                    >
+                      {{ tag }}
+                    </a>
 
-          </div>
+                    {% unless forloop.last %}
 
-        </article>
+                      <span class="tag-separator">
+                        ·
+                      </span>
+
+                    {% endunless %}
+
+                  {% endfor %}
+
+                </span>
+
+              {% endif %}
+
+            </div>
+
+          </article>
+
+        {% endfor %}
+
+      </div>
+
+
+      <p
+        id="no-posts-message"
+        class="empty-post-list"
+        hidden
+      >
+        No blog posts have this tag.
+      </p>
+
+
+    {% else %}
+
+      <p class="empty-post-list">
+        No blog posts yet.
+      </p>
+
+    {% endif %}
+
+  </section>
+
+
+  <aside class="tag-sidebar">
+
+    <h2>
+      Tags
+    </h2>
+
+
+    <nav aria-label="Filter blog posts by tag">
+
+      <a
+        class="tag-filter"
+        data-tag=""
+        href="{{ '/' | relative_url }}"
+      >
+
+        <span>
+          All
+        </span>
+
+        <span class="tag-count">
+          {{ site.posts.size }}
+        </span>
+
+      </a>
+
+
+      {% assign sorted_tags = site.tags | sort %}
+
+
+      {% for tag in sorted_tags %}
+
+        {% assign tag_name = tag[0] %}
+
+        {% assign tagged_posts = tag[1] %}
+
+
+        <a
+          class="tag-filter"
+          data-tag="{{ tag_name | slugify }}"
+          data-label="{{ tag_name }}"
+          href="{{ '/' | relative_url }}?tag={{ tag_name | slugify }}"
+        >
+
+          <span>
+            {{ tag_name }}
+          </span>
+
+          <span class="tag-count">
+            {{ tagged_posts.size }}
+          </span>
+
+        </a>
 
       {% endfor %}
 
-    </div>
+    </nav>
 
-  {% else %}
+  </aside>
 
-    <p class="empty-post-list">
-      No blog posts yet.
-    </p>
+</div>
 
-  {% endif %}
 
-</section>
+<script
+  src="{{ '/assets/js/blog-filter.js' | relative_url }}"
+>
+</script>
