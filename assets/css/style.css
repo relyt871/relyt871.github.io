@@ -428,6 +428,41 @@ hr {
 
 
 /*
+ * Visitor counts and footer
+ */
+
+.visit-count {
+  font-variant-numeric:
+    tabular-nums;
+}
+
+
+.site-footer {
+  border-top:
+    1px
+    solid
+    var(--border-color);
+
+  color:
+    var(--secondary-text-color);
+
+  font-size: 14px;
+}
+
+
+.footer-inner {
+  width: min(
+    calc(100% - 48px),
+    var(--content-width)
+  );
+
+  margin: 0 auto;
+
+  padding: 24px 0;
+}
+
+
+/*
  * Mobile layout
  */
 
