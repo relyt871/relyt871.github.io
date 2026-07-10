@@ -247,6 +247,70 @@ hr {
 }
 
 
+
+/*
+ * Individual blog posts
+ */
+
+.blog-post {
+  max-width: 850px;
+}
+
+
+.post-header {
+  margin-bottom: 40px;
+}
+
+
+.post-header h1 {
+  margin-bottom: 8px;
+}
+
+
+.post-metadata {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  align-items: center;
+
+  gap: 8px;
+
+  color:
+    var(--secondary-text-color);
+
+  font-size: 14px;
+}
+
+
+.post-tags {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 6px;
+}
+
+
+.post-tag {
+  padding: 1px 7px;
+
+  border:
+    1px
+    solid
+    var(--border-color);
+
+  border-radius: 4px;
+
+  font-size: 13px;
+}
+
+
+.post-content {
+  margin-top: 35px;
+}
+
+
 /*
  * Mobile layout
  */
