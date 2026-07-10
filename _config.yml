@@ -1,0 +1,9 @@
+title: "relyt871's Blog"
+description: "Personal Blog for Fun"
+
+url: "https://relyt871.github.io"
+baseurl: ""
+
+timezone: "America/New_York"
+
+markdown: kramdown
