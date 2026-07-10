@@ -34,9 +34,9 @@ The most standard mathematical proof I could find is based on Bretschneider's fo
 
 For $n=4$, suppose the side lengths are $a,b,c,d$, and there is a pair of opposite angles $\alpha,\gamma$. Let $s=\frac{a+b+c+d}{2}$, Bretschneider's formula states that its area $K$ satisfies
 
-\[
+$$
 K^2 = (s-a)(s-b)(s-c)(s-d) - abcd\cos^2\left(\frac{\alpha+\gamma}{2}\right) ~.
-\]
+$$
 
 The side lengths are fixed, so the area is maximized exactly when $\cos^2\left(\frac{\alpha+\gamma}{2}\right)=0$, which implies $\alpha+\gamma=\pi$. This holds if and only if all four vertices of the polygon lie on a common circle.
 
@@ -70,7 +70,7 @@ Choose a rod $AB$, and let one neighboring side be $AC$. Let
 - $\vec T_1$ be the force exerted by $AC$ on $AB$ at $A$,
 - $\vec T_2$ be the force exerted by the other neighboring rod on $AB$ at $B$.
 
-![Force analysis on the edge $AB$]('/assets/images/polygon-maximum-size/Figure1.png)
+![Force analysis on the edge $AB$](/assets/images/polygon-maximum-size/Figure1.png)
 
 The force $\vec F_{AB}$ is perpendicular to $AB$ and acts at its midpoint.
 
@@ -78,17 +78,17 @@ Let $\theta_1$ and $\theta_2$ be the angles between $\vec T_1$ and $\vec T_2$ an
 
 Since the components parallel to $AB$ must balance,
 
-\[
+$$
 T_1\cos\theta_1=T_2\cos\theta_2 ~.
 \tag{1}
-\]
+$$
 
 At equilibrium, $AB$ does not rotate around $B$, so the net torque must be zero:
 
-\[
+$$
 F_{AB}\cdot\frac{|AB|}{2}=T_1\cdot |AB|\sin\theta_1 ~, 
 \tag{2}
-\]
+$$
 
 so $T_1\sin\theta_1=\dfrac{F_{AB}}{2}$.  Similarly, no torque around $A$, so $T_2\sin\theta_2=\dfrac{F_{AB}}{2}$. This implies $T_1\sin\theta_1 = T_2\sin\theta_2$. Together with (1), we conclude that $\theta_1=\theta_2$.
 
@@ -97,34 +97,34 @@ so $T_1\sin\theta_1=\dfrac{F_{AB}}{2}$.  Similarly, no torque around $A$, so $T_
 Now draw through $A$ and $B$ the lines perpendicular to $\vec T_1$ and $\vec T_2$, respectively, and let them intersect at $O$. Draw $OM\perp AB$, with $M\in AB$.
 
 Because the two force directions make equal angles with $AB$,
-\[
+$$
 \angle AOM=\theta_1=\theta_2=\angle BOM ~.
-\]
+$$
 
 Therefore $AOB$ is an isosceles triangle with $OA=OB$, and hence $AM=MB=\dfrac{|AB|}{2}$.
 
-![Propagation of the same center to the adjacent edge]('/assets/images/polygon-maximum-size/Figure2.png)
+![Propagation of the same center to the adjacent edge](/assets/images/polygon-maximum-size/Figure2.png)
 
 Next, draw $ON\perp AC$, with $N\in AC$. Let $\vec T_1'$ be the force exerted by $AB$ on $AC$. By action and reaction, $T_1'=T_1$.
 
 Let $\theta_3$ be the angle made by $\vec T_1'$ with the line containing $AC$. $AC$ does not rotate around $C$, so the torque is balanced:
-\[
+$$
 F_{AC}\cdot\frac{|AC|}{2} = T_1'\cdot |AC|\sin\theta_3 ~.
 \tag{3}
-\]
+$$
 
 Comparing (2) and (3), plugging in $T_1'=T_1$, and using the fact that $F_{AB}$ is proportional to $|AB|$, $F_{AC}$ is proportional to $|AC|$, gives
 
-\[
+$$
 \frac{\sin\theta_1}{\sin\theta_3}=\frac{F_{AB}}{F_{AC}} = \frac{|AB|}{|AC|} ~.
 \tag{4}
-\]
+$$
 
 Finally, since $ON\perp AC$ and $AO\perp\vec T_1$, we have $\angle AON=\theta_3$, therefore by (4),
 
-\[
+$$
 |AN| = |AO|\sin\theta_3 = |AO|\sin\theta_1 \cdot \dfrac{|AC|}{|AB|} = |AM|\cdot \dfrac{|AC|}{|AB|} = \dfrac{|AC|}{2} ~.
-\]
+$$
 
 Thus $|AN|=|NC|$. Since $ON\perp AC$, $AOC$ is also an isosceles triangle with $OA=OC$.
 
