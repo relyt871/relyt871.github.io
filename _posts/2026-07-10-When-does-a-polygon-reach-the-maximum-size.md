@@ -70,7 +70,7 @@ Choose a rod $AB$, and let one neighboring side be $AC$. Let
 - $\vec T_1$ be the force exerted by $AC$ on $AB$ at $A$,
 - $\vec T_2$ be the force exerted by the other neighboring rod on $AB$ at $B$.
 
-![Force analysis on the edge $AB$](assets/images/polygon-maximum-size/Figure1.png)
+![Force analysis on the edge $AB$]('/assets/images/polygon-maximum-size/Figure1.png)
 
 The force $\vec F_{AB}$ is perpendicular to $AB$ and acts at its midpoint.
 
@@ -103,7 +103,7 @@ Because the two force directions make equal angles with $AB$,
 
 Therefore $AOB$ is an isosceles triangle with $OA=OB$, and hence $AM=MB=\dfrac{|AB|}{2}$.
 
-![Propagation of the same center to the adjacent edge](assets/images/polygon-maximum-size/Figure2.png)
+![Propagation of the same center to the adjacent edge]('/assets/images/polygon-maximum-size/Figure2.png)
 
 Next, draw $ON\perp AC$, with $N\in AC$. Let $\vec T_1'$ be the force exerted by $AB$ on $AC$. By action and reaction, $T_1'=T_1$.
 
