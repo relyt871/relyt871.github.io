@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
   <meta charset="UTF-8">
 
   <meta
@@ -16,30 +17,53 @@
       {{ site.title }}
     {% endif %}
   </title>
+
+  <link
+    rel="stylesheet"
+    href="{{ '/assets/css/style.css' | relative_url }}"
+  >
+
 </head>
+
 
 <body>
 
-  <header>
+  <header class="site-header">
 
-    <a href="{{ '/' | relative_url }}">
-      {{ site.title }}
-    </a>
+    <div class="header-inner">
 
-    <nav>
-      <a href="{{ '/' | relative_url }}">
-        Blogs
+      <a
+        class="site-title"
+        href="{{ '/' | relative_url }}"
+      >
+        {{ site.title }}
       </a>
 
-      <a href="{{ '/about/' | relative_url }}">
-        About Me
-      </a>
-    </nav>
+
+      <nav
+        class="site-navigation"
+        aria-label="Main navigation"
+      >
+
+        <a href="{{ '/' | relative_url }}">
+          Blogs
+        </a>
+
+        <a href="{{ '/about/' | relative_url }}">
+          About Me
+        </a>
+
+      </nav>
+
+    </div>
 
   </header>
 
-  <main>
+
+  <main class="page-content">
+
     {{ content }}
+
   </main>
 
 </body>
