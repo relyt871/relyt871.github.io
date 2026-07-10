@@ -60,6 +60,7 @@ title: Blogs
                       {{ tag }}
                     </a>
 
+
                     {% unless forloop.last %}
 
                       <span class="tag-separator">
@@ -73,6 +74,25 @@ title: Blogs
                 </span>
 
               {% endif %}
+
+
+              <span class="metadata-separator">
+                ·
+              </span>
+
+
+              <span class="post-list-visits">
+
+                <span
+                  class="visit-count"
+                  data-visit-path="{{ post.url }}"
+                >
+                  —
+                </span>
+
+                visits
+
+              </span>
 
             </div>
 
@@ -161,19 +181,6 @@ title: Blogs
     </nav>
 
   </aside>
-
-  <span class="post-list-visits">
-
-  <span
-      class="visit-count"
-      data-visit-path="{{ post.url }}"
-    >
-      —
-    </span>
-  
-    visits
-  
-  </span>
 
 </div>
 
