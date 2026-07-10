@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "When does a polygon reach the maximum size"
 date: 2026-07-10
-tags: geometry
+tags: 
+ - Geometry
 ---
 
 #### Problem Setting
