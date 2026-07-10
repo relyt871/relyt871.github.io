@@ -162,6 +162,24 @@ title: Blogs
 
   </aside>
 
+            <span class="metadata-separator">
+              ·
+            </span>
+
+
+            <span class="post-visit-count">
+
+              <span
+                class="visit-count"
+                data-visit-path="{{ post.url }}"
+              >
+                —
+              </span>
+
+              visits
+
+            </span>
+
 </div>
 
 
