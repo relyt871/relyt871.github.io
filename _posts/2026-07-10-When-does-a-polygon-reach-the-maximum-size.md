@@ -48,6 +48,8 @@ Therefore, every four consecutive vertices of the polygon must lie on a common c
 
 ## My Physics-Based Proof
 
+The proof is translated almost verbatim from a Chinese version, which I wrote four years ago.
+
 #### The Physics Intuition
 
 The following is the physical intuition that originally led me to a simple proof that only uses elementary physics principles and very basic trigonometric functions. 
@@ -65,7 +67,7 @@ Intuitively, the pressure difference tends to expand the frame and increase its 
 
 #### Equilibrium of One Rod
 
-We now analyze that equilibrium. The following proof is translated almost verbatim from a Chinese version of my writeup from four years ago.
+We now analyze that equilibrium. 
 
 Choose a rod $AB$, and let one neighboring side be $AC$. Let
 
