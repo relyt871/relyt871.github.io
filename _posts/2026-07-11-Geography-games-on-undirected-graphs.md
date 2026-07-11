@@ -44,17 +44,17 @@ In Undirected Vertex Geography, the winning player depends on [maximum matchings
 
 > **Proof.** First, suppose that there is a maximum matching $M$ that does not cover $s$. The winning strategy for the second player is: if the token is at $v$, then move to $M(v)$.
 >
-> We show that this strategy is always feasible: suppose at some point the first player moves to a vertex $v^*$ that is not saturated by $M$, then the sequence of moves so far forms a path from $s$ to $v^*$: 
+> We show that this strategy is always feasible: suppose at some point the first player moves to a vertex $v^{*}$ that is not saturated by $M$, then the sequence of moves so far forms a path from $s$ to $v^{*}$: 
 > $$
-> s - v_1 - M(v_1) - v_2 - M(v_2) - \cdots - v_k - M(v_k) - v^*
+> s - v_1 - M(v_1) - v_2 - M(v_2) - \cdots - v_k - M(v_k) - v^{*}
 > $$
-> where each $(v_i,M(v_i))$ is matched in $M$. However, such a path is an augmenting path wrt. $M$ and yields a matching larger than $M$: replace the $(v_i,M(v_i))$s with $(s,v_1), (M(v_1),v_2),\ldots,(M(v_{k-1}),v_k), (M(v_k),v^*)$. This contradicts the assumption that $M$ is a maximum matching.
+> where each $(v_i,M(v_i))$ is matched in $M$. However, such a path is an augmenting path wrt. $M$ and yields a matching larger than $M$: replace the $(v_i,M(v_i))$s with $(s,v_1), (M(v_1),v_2),\ldots,(M(v_{k-1}),v_k), (M(v_k),v^{*})$. This contradicts the assumption that $M$ is a maximum matching.
 >
 > Second, suppose every maximum matching saturates $s$. Fix such a matching $M$, the winning strategy for the first player is, again: if the token is at $v$, then move to $M(v)$.
 >
-> We show that this strategy is always feasible: suppose at some point the second player moves to a vertex $v^*$ that is not saturated by $M$, then there exists a path from $s$ to $v^*$:
+> We show that this strategy is always feasible: suppose at some point the second player moves to a vertex $v^{*}$ that is not saturated by $M$, then there exists a path from $s$ to $v^{*}$:
 > $$
-> s-M(s) - v_1 - M(v_1) - \cdots - v_k - M(v_k) - v^*
+> s-M(s) - v_1 - M(v_1) - \cdots - v_k - M(v_k) - v^{*}
 > $$
 > This is an alternating path wrt. $M$ and implies a matching as large as $M$ that does not saturate $s$, which contradicts the assumption that every maximum matching saturates $s$.
 >
@@ -101,9 +101,9 @@ Now suppose $r_1$ is linearly independent of the remaining rows. We show that th
 
 Let $c_j$ denote the $j$-th column of $A$, then the above condition can be characterized as follows: after setting $A_{1,k}$ to $0$, $c_k$ is linearly dependent on the remaining columns.
 
-Let $e_1 = (1,\underbrace{0,\ldots,0}_{m-1})^\top$, we append $e_1$ as a new column to $A$ and obtain matrix $A^*$.
+Let $e_1 = (1,\underbrace{0,\ldots,0}_{m-1})^\top$, we append $e_1$ as a new column to $A$ and obtain matrix $A^{*}$.
 
-Since $r_1$ is already linearly independent of the remaining rows, $A^*$ has the same row-rank as $A$. Since the row-rank and column-rank of a matrix are equal, $A^*$ also has the same column rank as $A$. This implies $e_1$ is linearly dependent on the columns in $A$. That is, there exists $T\subseteq[n]$ such that $e_1 = \sum_{j\in T}c_j$. 
+Since $r_1$ is already linearly independent of the remaining rows, $A^{*}$ has the same row-rank as $A$. Since the row-rank and column-rank of a matrix are equal, $A^{*}$ also has the same column rank as $A$. This implies $e_1$ is linearly dependent on the columns in $A$. That is, there exists $T\subseteq[n]$ such that $e_1 = \sum_{j\in T}c_j$. 
 
 Now choose an arbitrary $k\in T$ such that $A_{1,k}=1$. Such a $k$ must exist because the first entry of $e_1$ is $1$. Then we have
 $$
