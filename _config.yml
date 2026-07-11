@@ -6,6 +6,16 @@ baseurl: ""
 
 timezone: "America/New_York"
 
-markdown: kramdown
+markdown: CommonMarkGhPages
+
+commonmark:
+  options:
+    - UNSAFE
+
+  extensions:
+    - strikethrough
+    - autolink
+    - table
+    - tagfilter
 
 goatcounter_code: "relyt871"
