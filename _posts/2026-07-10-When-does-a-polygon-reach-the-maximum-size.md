@@ -6,7 +6,7 @@ tags:
  - Geometry
 ---
 
-#### Problem Setting
+## Problem Setting
 
 I would like to start my blog with some old memories.
 
@@ -30,7 +30,7 @@ The most standard mathematical proof I could find is based on Bretschneider's fo
 
 
 
-#### The Mathematical Proof
+## The Mathematical Proof
 
 For $n=4$, suppose the side lengths are $a,b,c,d$, and there is a pair of opposite angles $\alpha,\gamma$. Let $s=\frac{a+b+c+d}{2}$, Bretschneider's formula states that its area $K$ satisfies
 
@@ -46,7 +46,9 @@ Therefore, every four consecutive vertices of the polygon must lie on a common c
 
 
 
-#### My Physic-Based Proof
+## My Physics-Based Proof
+
+#### The Physics Intuition
 
 The following is the physical intuition that originally led me to a simple proof that only uses elementary physics principles and very basic trigonometric functions. 
 
@@ -61,6 +63,7 @@ In this two-dimensional idealization, each rod experiences an outward force that
 Intuitively, the pressure difference tends to expand the frame and increase its enclosed area. If the pressure difference tends to infinity, the frame must reach a stable maximum-area configuration (imagine blowing up a balloon). At that state, for each rod, the pressure difference "pushes" the rod outwards, while the two neighboring rods exert force through the hinges and "drag" it backwards, and the forces and torques on every rod must balance.
 
 
+#### Equilibrium of One Rod
 
 We now analyze that equilibrium. The following proof is translated almost verbatim from a Chinese version of my writeup from four years ago.
 
@@ -93,6 +96,7 @@ $$
 so $T_1\sin\theta_1=\dfrac{F_{AB}}{2}$.  Similarly, no torque around $A$, so $T_2\sin\theta_2=\dfrac{F_{AB}}{2}$. This implies $T_1\sin\theta_1 = T_2\sin\theta_2$. Together with (1), we conclude that $\theta_1=\theta_2$.
 
 
+#### Propagating the Analysis to a Neighboring Rod
 
 Now draw through $A$ and $B$ the lines perpendicular to $\vec T_1$ and $\vec T_2$, respectively, and let them intersect at $O$. Draw $OM\perp AB$, with $M\in AB$.
 
