@@ -29,15 +29,19 @@
     window.MathJax = {
 
       tex: {
-
-        inlineMath: {
-          "[+]": [
-            ["$", "$"]
-          ]
-        },
-
+  
+        inlineMath: [
+          ["$", "$"],
+          ["\\(", "\\)"]
+        ],
+  
+        displayMath: [
+          ["$$", "$$"],
+          ["\\[", "\\]"]
+        ],
+  
         processEscapes: true
-
+  
       }
 
     };
