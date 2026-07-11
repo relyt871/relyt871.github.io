@@ -245,17 +245,6 @@ hr {
   font-size: 14px;
 }
 
-.post-list-visits {
-  margin-left: auto;
-
-  padding-left: 20px;
-
-  color:
-    var(--secondary-text-color);
-
-  white-space: nowrap;
-}
-
 
 .metadata-separator,
 .tag-separator {
@@ -438,47 +427,6 @@ hr {
 }
 
 
-/*
- * Visitor counts and footer
- */
-
-.visit-count {
-  font-variant-numeric:
-    tabular-nums;
-}
-
-
-.site-footer {
-  border-top:
-    1px
-    solid
-    var(--border-color);
-
-  color:
-    var(--secondary-text-color);
-
-  font-size: 14px;
-}
-
-
-.footer-inner {
-  display: flex;
-
-  align-items: center;
-  justify-content: center;
-
-  width: min(
-    calc(100% - 48px),
-    var(--content-width)
-  );
-
-  margin: 0 auto;
-
-  padding: 24px 0;
-
-  text-align: center;
-}
-
 
 /*
  * Images in blog posts
@@ -554,15 +502,6 @@ hr {
       var(--border-color);
 
     border-left: 0;
-  }
-
-  .post-list-visits {
-    width: 100%;
-
-    margin-left: 0;
-    padding-left: 0;
-
-    font-size: 13px;
   }
 
 }
