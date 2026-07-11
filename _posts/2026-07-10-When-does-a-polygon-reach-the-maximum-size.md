@@ -26,7 +26,7 @@ For example, if $n=4$ and all four sides have the same length, then the maximum 
 
 When my team was training on that problem set four years ago, it took my teammates quite some time to play with different polygons and eventually reach a correct conjecture. But how to prove it?
 
-The most standard mathematical proof I could find is based on Bretschneider's formula. Although the conclusion becomes clear once the formula is given, the formula it self is rather complicated and its derivation is far from immediate. So at that time, what first came to my mind was a more elementary physics-based proof.
+The most standard mathematical proof I could find is based on [Bretschneider's formula](https://en.wikipedia.org/wiki/Bretschneider%27s_formula). Although the conclusion becomes clear once the formula is given, the formula it self is rather complicated and its derivation is far from immediate. So at that time, what first came to my mind was a more elementary physics-based proof.
 
 
 
