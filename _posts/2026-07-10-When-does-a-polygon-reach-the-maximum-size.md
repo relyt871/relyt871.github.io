@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "When does a polygon reach the maximum size"
-date: 2026-07-10
+title: "When Does a Polygon Reach the Maximum Size? A Physics-Based Proof"
+date: 2026-07-10 20:00:00 -0400
 tags: 
  - Geometry
 ---
