@@ -481,6 +481,23 @@ hr {
 
 
 /*
+ * Images in blog posts
+ */
+
+.post-content img {
+  display: block;
+
+  width: 100%;
+  max-width: 500px;
+
+  height: auto;
+
+  margin: 30px auto;
+}
+
+
+
+/*
  * Mobile layout
  */
 
