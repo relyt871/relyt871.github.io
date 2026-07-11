@@ -6,16 +6,6 @@ baseurl: ""
 
 timezone: "America/New_York"
 
-markdown: CommonMarkGhPages
-
-commonmark:
-  options:
-    - UNSAFE
-
-  extensions:
-    - strikethrough
-    - autolink
-    - table
-    - tagfilter
+markdown: Pandoc
 
 goatcounter_code: "relyt871"
