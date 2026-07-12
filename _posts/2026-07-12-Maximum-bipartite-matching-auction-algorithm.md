@@ -58,11 +58,11 @@ We can show that when the auction terminates, the allocation gives an $(1-\epsil
 
 Let $M$ denote the matching induced by the final allocation. When the auction terminates, we have the following two properties:
 
-- (1) If a bidder $v$ is **unmatched**, then every preferred item has price $1$.
+(1) If a bidder $v$ is **unmatched**, then every preferred item has price $1$.
 
   > This follows from Step 3.
 
-- (2) If a bidder $v$ is **matched** to an item $u$, then every preferred item $w$ satisfies $p_w\geq p_u-\epsilon$. 
+(2) If a bidder $v$ is **matched** to an item $u$, then every preferred item $w$ satisfies $p_w\geq p_u-\epsilon$. 
 
   > Consider the last round where $u$ is allocated to $v$. Step 2 guarantees that $p_u\leq p_w$, so $p_w\geq p_u-\epsilon$ after Step 4 is executed. Afterwards, $p_w$ can only increase, while $u$ remains allocated to $v$ and $p_u$ no longer increases.
 
