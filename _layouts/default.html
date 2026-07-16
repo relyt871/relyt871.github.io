@@ -23,6 +23,53 @@
     href="{{ '/assets/css/style.css' | relative_url }}"
   >
 
+  <!-- Syntax highlighting theme -->
+
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github.min.css"
+>
+
+
+<!-- Syntax highlighting engine -->
+
+<script
+  defer
+  src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"
+>
+</script>
+
+
+<script>
+
+  document.addEventListener(
+    "DOMContentLoaded",
+    function () {
+
+      if (!window.hljs) {
+        return;
+      }
+
+
+      document
+        .querySelectorAll(
+          ".post-content pre code"
+        )
+        .forEach(
+          function (codeBlock) {
+
+            hljs.highlightElement(
+              codeBlock
+            );
+
+          }
+        );
+
+    }
+  );
+
+</script>
+
 
   <script>
 
