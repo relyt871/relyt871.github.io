@@ -45,6 +45,17 @@ $$
 $$
 In particular, the expected length of the longest piece is $\mathbb E[S_{[1]}]=\frac{H_n}{n}$, where $H_n$ is the $n$-th harmonic number; the expected length of the shortest piece is $\mathbb E[S_{[n]}]=\frac{1}{n^2}$.
 
+The following table demonstrates the numerical results for $n=1,2,3,4,5$.
+
+|  $n$ | $\mathbb E[S_{[1]}]$ | $\mathbb E[S_{[2]}]$ | $\mathbb E[S_{[3]}]$ | $\mathbb E[S_{[4]}]$ | $\mathbb E[S_{[5]}]$ |
+| ---: | -------------------: | -------------------: | -------------------: | -------------------: | -------------------: |
+|    1 |               1.0000 |                      |                      |                      |                      |
+|    2 |               0.7500 |               0.2500 |                      |                      |                      |
+|    3 |               0.6111 |               0.2778 |               0.1111 |                      |                      |
+|    4 |               0.5208 |               0.2708 |               0.1458 |               0.0625 |                      |
+|    5 |               0.4567 |               0.2567 |               0.1567 |               0.0900 |               0.0400 |
+
+
 ## Relation to Exponential Random Variables
 
 The first step of the proof is to show that the distribution of the lengths of the pieces (from left to right) is related to independent [exponential random variables](https://en.wikipedia.org/wiki/Exponential_distribution). 
