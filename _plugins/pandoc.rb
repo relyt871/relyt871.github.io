@@ -20,6 +20,11 @@ module Jekyll
           "-implicit_figures"
         ].join.freeze
 
+        EXTERNAL_LINK_FILTER = File.expand_path(
+          "../_filters/external-links.lua",
+          __dir__
+        )
+
         def initialize(_config)
         end
 
@@ -29,7 +34,8 @@ module Jekyll
             "--from=#{INPUT_FORMAT}",
             "--to=html5",
             "--mathjax",
-            "--wrap=none"
+            "--wrap=none",
+            "--lua-filter=#{EXTERNAL_LINK_FILTER}"
           ]
 
           output, error, status = Open3.capture3(
