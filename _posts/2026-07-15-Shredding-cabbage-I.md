@@ -235,4 +235,5 @@ $\square$
 ## Related Posts
 
 [Shredding Cabbage II: Convergence to Uniformity](https://relyt871.github.io/2026/07/16/Shredding-cabbage-II.html)
+[Shredding Cabbage III: Convergence to Uniformity (Continued)](https://relyt871.github.io/2026/07/17/Shredding-Cabbage-III.html)
 
