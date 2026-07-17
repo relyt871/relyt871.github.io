@@ -232,3 +232,7 @@ $\square$
 - [van Zwet, W. R. (1978). “A Proof of Kakutani’s Conjecture on Random Subdivision of Longest Intervals.” *The Annals of Probability*, 6(1), 133–137.](https://www.jstor.org/stable/pdf/2242867.pdf)
 - [Whitworth, W. A. (1897). *DCC Exercises: Including Hints for the Solution of All the Questions in Choice and Chance*. Cambridge: Deighton, Bell & Co.](https://books.google.com/books/about/DCC_Exercises.html?id=x6ve0AEACAAJ)
 
+## Related Posts
+
+[Shredding Cabbage II: Convergence to Uniformity](https://relyt871.github.io/2026/07/16/Shredding-cabbage-II.html)
+
