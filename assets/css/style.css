@@ -24,6 +24,9 @@ html {
 body {
   margin: 0;
 
+  padding-top:
+    var(--header-height, 72px);
+
   color: var(--text-color);
   background: var(--background-color);
 
@@ -54,11 +57,41 @@ a:hover {
  * Header
  */
 
+/*
+ * Auto-hiding header
+ */
+
 .site-header {
+  position: fixed;
+
+  top: 0;
+  right: 0;
+  left: 0;
+
+  z-index: 1000;
+
   border-bottom:
     1px
     solid
     var(--border-color);
+
+  background:
+    rgba(255, 255, 255, 0.96);
+
+  backdrop-filter:
+    blur(10px);
+
+  transform:
+    translateY(0);
+
+  transition:
+    transform 180ms ease;
+}
+
+
+.site-header--hidden {
+  transform:
+    translateY(calc(-100% - 1px));
 }
 
 
