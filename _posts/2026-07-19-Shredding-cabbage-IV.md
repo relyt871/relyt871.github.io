@@ -110,6 +110,7 @@ $$
 $$
 \Pr\left[\left|M_n-\frac{2}{n}\right|>Ln^{-3/2}\right] \leq \epsilon ~.
 $$
+
 ## References
 
 - [van Zwet, W. R. (1978). “A Proof of Kakutani's Conjecture on Random Subdivision of Longest Intervals.” *The Annals of Probability*, 6(1), 133–137.](https://www.jstor.org/stable/pdf/2242867.pdf)
