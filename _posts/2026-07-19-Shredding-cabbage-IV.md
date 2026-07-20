@@ -25,18 +25,18 @@ $$
 $$
 The following table compares the expected length of the largest piece in both models. For the U-model, the expectations can be exactly computed using (1); for the K-model, the values are obtained by averaging over $10^6$ random trials. 
 
-| $n$ pieces | U-model | K-model | $2/n$ |
+| $n$ pieces |             U-model |             K-model |                $2/n$ |
 | ---: | -------------------: | -------------------: | -------------------: |
-| 1 | 1.0000 | 1.0000 | 2.0000 |
-| 2 | 0.7500 | 0.7500 | 1.0000 |
-| 3 | 0.6111 | 0.5753 | 0.6667 |
-| 4 | 0.5208 | 0.4555 | 0.5000 |
-| 5 | 0.4567 | 0.3728 | 0.4000 |
-| 10 | 0.2929  | 0.1930  | 0.2000 |
-| 25 | 0.1526  | 0.0788  | 0.0800 |
-| 50 | 0.0900  | 0.0397  | 0.0400 |
-| 75 | 0.0654  | 0.0265  | 0.0267 |
-| 100 | 0.0519 | 0.0199 | 0.0200 |
+|    1 |               1.0000 |               1.0000 |               2.0000 |
+|    2 |               0.7500 |               0.7500 |               1.0000 |
+|    3 |               0.6111 |               0.5753 |               0.6667 |
+|    4 |               0.5208 |               0.4555 |               0.5000 |
+|    5 |               0.4567 |               0.3728 |               0.4000 |
+|   10 |               0.2929 |               0.1930 |               0.2000 |
+|   25 |               0.1526 |               0.0788 |               0.0800 |
+|   50 |               0.0900 |               0.0397 |               0.0400 |
+|   75 |               0.0654 |               0.0265 |               0.0267 |
+|  100 |               0.0519 |               0.0199 |               0.0200 |
 
 The difference between the two models is already visible for small $n$. Intuitively, in the K-model, the length of the largest piece decreases much faster, because it always splits the largest piece into two smaller pieces. Later we will show that the expectation in the K-model is roughly $2/n$, and in the table we also provide the values of $2/n$ for comparison.
 
