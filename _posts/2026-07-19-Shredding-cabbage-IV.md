@@ -26,7 +26,7 @@ $$
 The following table compares the expected length of the largest piece in both models. For the U-model, the expectations can be exactly computed using (1); for the K-model, the values are obtained by averaging over $10^6$ random trials. 
 
 | $n$ pieces | U-model | K-model | $2/n$ |
-|:----:|:---------:|:---------:|:---------:|
+| ---: | -------------------: | -------------------: | -------------------: |
 | 1 | 1.0000 | 1.0000 | 2.0000 |
 | 2 | 0.7500 | 0.7500 | 1.0000 |
 | 3 | 0.6111 | 0.5753 | 0.6667 |
