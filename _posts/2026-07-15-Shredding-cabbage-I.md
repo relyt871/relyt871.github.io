@@ -235,5 +235,8 @@ $\square$
 ## Related Posts
 
 [Shredding Cabbage II: Convergence to Uniformity](https://relyt871.github.io/2026/07/16/Shredding-cabbage-II.html)
+
 [Shredding Cabbage III: Convergence to Uniformity (Continued)](https://relyt871.github.io/2026/07/17/Shredding-Cabbage-III.html)
+
+[Shredding Cabbage IV: The Largest Piece in the Kakutani Model](https://relyt871.github.io/2026/07/19/Shredding-cabbage-IV.html)
 
