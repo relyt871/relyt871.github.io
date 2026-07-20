@@ -155,4 +155,7 @@ Phew! We have already done quite a lot in this post, and en route solved the exa
 ## Related Posts
 
 [Shredding Cabbage I: The Uniform Spacing Model](https://relyt871.github.io/2026/07/15/Shredding-cabbage-I.html)
+
 [Shredding Cabbage III: Convergence to Uniformity (Continued)](https://relyt871.github.io/2026/07/17/Shredding-Cabbage-III.html)
+
+[Shredding Cabbage IV: The Largest Piece in the Kakutani Model](https://relyt871.github.io/2026/07/19/Shredding-cabbage-IV.html)
