@@ -135,3 +135,5 @@ Finally, by a standard argument (see, e.g., the proof of the [Glivenko–Cantell
 [Shredding Cabbage I: The Uniform Spacing Model](https://relyt871.github.io/2026/07/15/Shredding-cabbage-I.html)
 
 [Shredding Cabbage II: Convergence to Uniformity](https://relyt871.github.io/2026/07/16/Shredding-cabbage-II.html)
+
+[Shredding Cabbage IV: The Largest Piece in the Kakutani Model](https://relyt871.github.io/2026/07/19/Shredding-cabbage-IV.html)
