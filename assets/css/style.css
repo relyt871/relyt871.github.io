@@ -571,6 +571,34 @@ hr {
 
 
 /*
+ * Display mathematics
+ */
+
+.post-content .math.display {
+  display: block;
+
+  width: 100%;
+
+  margin:
+    1.35em
+    0;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  text-align: center;
+}
+
+
+.post-content
+.math.display
+mjx-container[display="true"] {
+  display: block !important;
+
+  margin: 0 !important;
+}
+
+/*
  * Mobile layout
  */
 
