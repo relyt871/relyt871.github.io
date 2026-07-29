@@ -27,7 +27,7 @@ $$
 
 to show the following high-probability tail bound for $M_n$ (slightly adapted to be used conveniently as a black box):
 
-**Lemma1.** there exists a constant $C>0$ such that for all sufficiently large $n$ and $L>0$ such that $\dfrac{2}{n}+Ln^{-3/2} < \frac{1}{2}$, 
+**Lemma1.** there exists a constant $C>0$ such that for all sufficiently large $n$ and $L>0$ such that $\dfrac{2}{n}+Ln^{-3/2} < \dfrac{1}{2}$, 
 $$
 \Pr\left[\left|M_n-\frac{2}{n}\right|>Ln^{-3/2}\right]< \frac{C}{L^2} ~.
 $$
