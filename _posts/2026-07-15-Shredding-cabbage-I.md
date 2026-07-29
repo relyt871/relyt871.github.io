@@ -240,3 +240,5 @@ $\square$
 
 [Shredding Cabbage IV: The Largest Piece in the Kakutani Model](https://relyt871.github.io/2026/07/19/Shredding-cabbage-IV.html)
 
+[Shredding Cabbage V: The Largest Piece in the Kakutani Model (Continued)](https://relyt871.github.io/2026/07/28/Shredding-cabbage-V.html)
+
