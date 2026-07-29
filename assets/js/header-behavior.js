@@ -115,16 +115,35 @@ document.addEventListener("DOMContentLoaded", () => {
   window.addEventListener(
     "scroll",
     () => {
-
+  
       const currentScrollY =
         window.scrollY;
-
-
+  
+  
       /*
-       * Only downward scrolling has an effect.
-       * Upward scrolling deliberately does nothing.
+       * Always reveal the header when the page
+       * returns to the top, regardless of the
+       * cursor position.
        */
-
+  
+      if (currentScrollY <= 20) {
+  
+        showHeader();
+  
+        previousScrollY =
+          currentScrollY;
+  
+        return;
+  
+      }
+  
+  
+      /*
+       * Away from the top, only downward scrolling
+       * affects the header. Upward scrolling alone
+       * does not reveal it.
+       */
+  
       if (
         currentScrollY >
           previousScrollY
@@ -136,11 +155,11 @@ document.addEventListener("DOMContentLoaded", () => {
       ) {
         hideHeader();
       }
-
-
+  
+  
       previousScrollY =
         currentScrollY;
-
+  
     },
     {
       passive: true
