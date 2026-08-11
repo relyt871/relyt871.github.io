@@ -37,7 +37,7 @@ The following table lists a selection of milestone results for the global minimu
 | Runtime                            | Det/Rand | Reference link                                   |
 | ---------------------------------- | :------- | ------------------------------------------------ |
 | $O(n^{O(k^2)})$                    | D        | [GH94](https://doi.org/10.1287/moor.19.1.24)     |
-| $O(n^{2(k-1)}\log^2 n)$            | R        | [KS96](https://doi.org/10.1145/234533.234534)    |
+| $\tilde O(n^{2(k-1)})$             | R        | [KS96](https://doi.org/10.1145/234533.234534)    |
 | $\widetilde{O}(mn^{2k-2})$         | D        | [Tho08](https://doi.org/10.1145/1374376.1374402) |
 | $O(k^{O(k)}n^{(2\omega/3+o(1))k})$ | D        | [GLL18](https://doi.org/10.1109/FOCS.2018.00020) |
 | $n^k(\log n)^{O(k^2)}$             | R        | [GHLL22](https://doi.org/10.1145/3478018)        |
