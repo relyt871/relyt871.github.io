@@ -35,7 +35,7 @@ Intriguingly, for $k\geq 3$, the computational complexity of the two problems di
 The following table lists a selection of milestone results for the global minimum $k$-cut problem. It does not exhaustively enumerate all results in the literature; in particular, better algorithms for simple unweighted graphs are omitted.
 
 |              Runtime               | Det/Rand |                  Reference link                  |
-| :--------------------------------: | :------: | :----------------------------------------------: |
+| :--------------------------------: | :--------: | :----------: |
 |          $O(n^{O(k^2)})$           |    D     |   [GH94](https://doi.org/10.1287/moor.19.1.24)   |
 |      $O(n^{2(k-1)}\log^2 n)$       |    R     |  [KS96](https://doi.org/10.1145/234533.234534)   |
 |     $\widetilde{O}(mn^{2k-2})$     |    D     | [Tho08](https://doi.org/10.1145/1374376.1374402) |
