@@ -156,7 +156,7 @@ $$
 \begin{aligned}
 &~ \prod_{r=k+1}^n \left(1-\frac{k-1}{r}\right)\left(1-\frac{k-1}{r-1}\right)\\
 = &~ \prod_{r=k+1}^n \frac{r-k+1}{r} \prod_{r=k+1}^n \frac{r-k}{r-1} \\
-= &~ \frac{k}{{n\choose k-1}{n-1\choose k-1}} = \Omega(n^{-2(k-1)}) ~.
+= &~ \frac{k}{\binom{n}{k-1}\cdot \binom{n-1}{k-1}} = \Omega(n^{-2(k-1)}) ~.
 \end{aligned}
 $$
 
