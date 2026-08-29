@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "COMPSCI535 $\cdot$ An Alternative Proof of the Price of Anarchy for Selfish Routing"
+title: "COMPSCI535 - An Alternative Proof of the Price of Anarchy for Selfish Routing"
 date: 2026-08-28
 tags:
  - Economics
  - Nonstandard Proofs
+ - COMPSCI535 Series
 ---
 
 In Lecture 1, we went over the classic proof that the **price of anarchy** for selfish routing in networks with linear latency functions is exactly $4/3$. The original proof was due to [RT02](https://theory.stanford.edu/~tim/papers/routing.pdf). In this post, we will discuss a simple and alternative proof from [CSS08](https://doi.org/10.1016/j.geb.2008.01.001).
