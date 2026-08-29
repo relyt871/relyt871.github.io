@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "COMPSCI535 $\cdots$ An Alternative Proof of the Price of Anarchy for Selfish Routing"
+title: "COMPSCI535 $\cdot$ An Alternative Proof of the Price of Anarchy for Selfish Routing"
 date: 2026-08-28
 tags:
  - Economics
