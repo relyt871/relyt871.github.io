@@ -4,6 +4,7 @@ title: "When Does a Polygon Reach the Maximum Size? A Physics-Based Proof"
 date: 2026-07-10 20:00:00 -0400
 tags: 
  - Geometry
+ - Nonstandard Proofs
 ---
 
 ## Problem Setting
